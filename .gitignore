@@ -1,0 +1,9 @@
+software/_adapter.py
+firmware/MPLAB.X/build
+firmware/MPLAB.X/dist
+hardware/proto-board/proto-board.bak
+hardware/proto-board/proto-board-cache.lib
+hardware/v1/board/*.bak
+hardware/v1/board/v1-*.ps
+pics
+www

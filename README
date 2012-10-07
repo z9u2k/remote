@@ -1,0 +1,52 @@
+===========================================
+== UNIVERSAL IR REMOTE RECEIVER FOR LIRC ==
+===========================================
+
+This project contains hardware schematics, firmware and software needed to build
+the LIRC USB receiver described in:
+http://www.duvdevani.com/itay/blog/projects/1-universal-ir-remote-usb-receiver
+
+Directories:
+* hardware - contains KiCAD project files and schematics for both prototype
+  board (PIC18F4553) and final board (PIC18F2553) with external KiCAD libraries
+  in the libs directory
+* firmware - MPLAB.X firmware project. Requires the Microchip USB Framework
+  2012-04-03 for PIC18 and C18 (though compiling it with XC8 should be possible)
+
+  Please note that files under this folder may be distributed under a different
+  license than the rest. Please see LICENSES below.
+
+* software - contains the adapter script, configuration file and udev rules for 
+  the VIP/PID the code uses. Folder also contains LIRC file for my remote
+  control, as well as an XBMC configuration for it
+
+===========
+== NOTES ==
+===========
+
+* The code is based on the Microchip CDC Basic example, and as such uses the
+  VIP/PID of the sample. This is OK if you use it only on your computer, but if
+  you do anything else with it consider changing these identifiers. There are
+  several free-to-use VID/PID pairs under certain limitation you can use.
+* Linux got two drivers working with this example: ftdi-sio and cdc-acm. I
+  prefer using the latter as the former is an implementation of a proprietary
+  protocol which I've had some problems with. As far as I can say, Ubuntu will
+  prefer using ftdi-sio (/dev/ttyUSB*). If you have any problems with try, try
+  to switch to cdc-acm (ttyACM*).
+* I've had a weird issue in Ubuntu, where the serial port was configured
+  incorrectly (cooked), causing packet loss and bad experience. Make sure you
+  don't have any service trying to configure serial ports, such as
+  network-manager or anything
+
+==============
+== LICENSES ==
+==============
+
+* This project, except for its firmware (see below), is distributes under the
+  MIT license
+* The project uses some KiCAD libraries from Pierre Launay search engine
+* All firmware files (except queue.c, queue.h, receiver.cand config_bits.c) are
+  based on Microchip's Basic CDC Device example code which is distributed under
+  the Microchip Application Solutions User Agreement. These files might be
+  distributed under a different license than the MIT license. queue.c, queue.h,
+  receiver.c and config_bits.c are licensed under the MIT license

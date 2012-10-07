@@ -1,0 +1,5 @@
+ACTION=="add", KERNEL=="ttyACM*", ATTRS{idVendor}=="04d8", ATTRS{idProduct}=="000a", RUN+="${LIRC_ADAPTER_HOME}/adapter.sh"
+ACTION=="change", KERNEL=="ttyACM*", ATTRS{idVendor}=="04d8", ATTRS{idProduct}=="000a", RUN+="${LIRC_ADAPTER_HOME}/adapter.sh"
+
+ACTION=="add", KERNEL=="ttyUSB*", ATTRS{idVendor}=="04d8", ATTRS{idProduct}=="000a", RUN+="${LIRC_ADAPTER_HOME}/adapter.sh"
+ACTION=="change", KERNEL=="ttyUSB*", ATTRS{idVendor}=="04d8", ATTRS{idProduct}=="000a", RUN+="${LIRC_ADAPTER_HOME}/adapter.sh"

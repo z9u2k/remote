@@ -1,0 +1,61 @@
+<lircmap>
+    <remote device="toshiba-ct-90319-regza-link.conf">
+
+        <!-- standard remote -->
+        
+        <left>KEY_LEFT</left>
+        <right>KEY_RIGHT</right>
+        <up>KEY_UP</up>
+        <down>KEY_DOWN</down>
+        <select>KEY_OK</select>
+        <back>KEY_EXIT</back>
+        <menu>KEY_MENU</menu>
+        <info>KEY_INFO</info>
+        <play>KEY_PLAY</play>
+        <pause>KEY_PLAYPAUSE</pause>
+        <reverse>KEY_REWIND</reverse>
+        <forward>KEY_FORWARD</forward>
+        <skipplus>KEY_NEXT</skipplus>
+        <skipminus>KEY_PREVIOUS</skipminus>
+        <stop>KEY_STOP</stop>
+        <zero>KEY_0</zero>
+        <one>KEY_1</one>
+        <two>KEY_2</two>
+        <three>KEY_3</three>
+        <four>KEY_4</four>
+        <five>KEY_5</five>
+        <six>KEY_6</six>
+        <seven>KEY_7</seven>
+        <eight>KEY_8</eight>
+        <nine>KEY_9</nine>
+
+        <power>KEY_POWER</power>
+
+        <!-- disabled because TV still responds to keys -->
+        <!-- volumeplus>KEY_VOLUMEUP</volumeplus -->
+        <!-- volumeminus>KEY_VOLUMEDOWN</volumeminus -->
+        <!-- mute>KEY_MUTE</mute -->
+        <!-- display>KEY_DISPLAYTOGGLE</display -->
+
+        <channelplus>KEY_CHANNELUP</channelplus>
+        <channelminus>KEY_CHANNELDOWN</channelminus>
+        <red>KEY_RED</red>
+        <green>KEY_GREEN</green>
+        <yellow>KEY_YELLOW</yellow>
+        <blue>KEY_BLUE</blue>
+        <teletext>KEY_TEXT</teletext>
+        <subtitle>KEY_CYCLEWINDOWS</subtitle>
+
+        <!-- universal remote -->
+
+        <!--
+        <KEY_MOVE>KEY_MOVE</KEY_MOVE>
+        <KEY_CONTEXT_MENU>KEY_CONTEXT_MENU</KEY_CONTEXT_MENU>
+        <KEY_SETUP>KEY_SETUP</KEY_SETUP>
+        <KEY_EJECTCD>KEY_EJECTCD</KEY_EJECTCD>
+        <KEY_DISPLAY_OFF>KEY_DISPLAY_OFF</KEY_DISPLAY_OFF>
+        -->
+
+    </remote>
+</lircmap>
+

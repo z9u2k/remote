@@ -1,0 +1,136 @@
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Sat Sep  1 11:14:40 2012
+
+BeginCmp
+TimeStamp = /50288BE0;
+Reference = C1;
+ValeurCmp = 10pF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50288BE5;
+Reference = C2;
+ValeurCmp = 10pF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50288D0A;
+Reference = C3;
+ValeurCmp = 10uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /502890C7;
+Reference = C4;
+ValeurCmp = 100pF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5040D4A2;
+Reference = C5;
+ValeurCmp = 1uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5040D45E;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5041C342;
+Reference = P1;
+ValeurCmp = ICSP;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5040D6EA;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /5040D6EF;
+Reference = P3;
+ValeurCmp = CONN_1;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /5040D6F2;
+Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /5040D6F4;
+Reference = P5;
+ValeurCmp = CONN_1;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /5041C35E;
+Reference = P6;
+ValeurCmp = POWER;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5041C370;
+Reference = P7;
+ValeurCmp = CONN_1;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /50288CAC;
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /502E283F;
+Reference = R2;
+ValeurCmp = 330;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50310B8E;
+Reference = R3;
+ValeurCmp = 220;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5040D42A;
+Reference = U1;
+ValeurCmp = PL-IRM0101-3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /502E245A;
+Reference = U2;
+ValeurCmp = PIC18F2553;
+IdModule  = SO28;
+EndCmp
+
+BeginCmp
+TimeStamp = /50288BD7;
+Reference = X1;
+ValeurCmp = 4MHz;
+IdModule  = HC-49V;
+EndCmp
+
+EndListe

@@ -1,0 +1,60 @@
+<keymap>
+    <global>
+        <remote>
+            <left>Left</left>
+            <right>Right</right>
+            <up>Up</up>
+            <down>Down</down>
+            <select>Select</select>
+            <back>Back</back>
+            <info>Info</info>
+            <subtitle>ToggleFullScreen</subtitle>
+            <play>Play</play>
+            <pause>Pause</pause>
+            <reverse>Rewind</reverse>
+            <forward>FastForward</forward>
+            <skipplus>SkipNext</skipplus>
+            <skipminus>SkipPrevious</skipminus>
+            <stop>Stop</stop>
+            <zero>Number0</zero>
+            <one>Number1</one>
+            <two>Number2</two>
+            <three>Number3</three>
+            <four>Number4</four>
+            <five>Number5</five>
+            <six>Number6</six>
+            <seven>Number7</seven>
+            <eight>Number8</eight>
+            <nine>Number9</nine>
+
+            <power>ActivateWindow(shutdownmenu)</power>
+
+            <!-- disabled because TV still responds to keys -->
+            <!-- volumeplus>VolumeUp</volumeplus -->
+            <!-- volumeminus>VolumeDown</volumeminus -->
+            <!-- mute>Mute</mute -->
+
+            <menu>ContextMenu</menu>
+        </remote>
+    </global>
+    <FullscreenVideo>
+        <remote>
+            <menu>OSD</menu>
+            <back>Stop</back>
+            <info>Info</info>
+            
+            <display>AspectRatio</display>
+
+            <skipplus>BigStepForward</skipplus>
+            <skipminus>StepBack</skipminus>
+
+            <forward>StepForward</forward>
+            <reverse>SmallStepBack</reverse>
+
+            <channelplus>SubtitleDelayPlus</channelplus>
+            <channelminus>SubtitleDelayMinus</channelminus>
+            
+            <subtitle>ShowSubtitles</subtitle>
+        </remote>
+    </FullscreenVideo>
+</keymap>
